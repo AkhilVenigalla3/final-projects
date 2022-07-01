@@ -1,0 +1,147 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.banner {
+  vertical-align: middle;
+  height: 700px;
+  background-image: url("./asset/banner.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+.body {
+  margin: 0px;
+}
+.bannerText {
+  padding: 13rem;
+  font-size: 38px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+}
+.footerText {
+  padding: 1rem 25rem 1rem 25rem !important;
+}
+footer .contact-button {
+  padding: 13px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.navStyles {
+  display: flex;
+  justify-content: end;
+}
+.bachelorText {
+  margin-left: 130px;
+}
+p {
+  margin: 0;
+}
+
+.featured-role {
+  padding: 20px 200px;
+}
+
+.featured-role h2 {
+  margin-bottom: 40px;
+}
+
+.featured-role .role {
+  color: rgba(149, 128, 5, 0.589);
+}
+.featured-role .split {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.split .right {
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding: 50px;
+  margin-left: 30px;
+}
+
+.split .left {
+  line-height: 1.5;
+}
+
+.featured-role .split div {
+  width: 50%;
+}
+.galleryBannerText {
+  font-size: 30px;
+  margin-top: 6rem;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
